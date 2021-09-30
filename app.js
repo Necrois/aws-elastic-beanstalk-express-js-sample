@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Hello Jeff Bezos and Aws team!'));
+app.get('/', (req, res) => res.send('SpaceX is far superior to blue origins! '));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
